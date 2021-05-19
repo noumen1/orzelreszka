@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
+</head>
+<body>
+    <center>
+        <div id="main">
+            
+        </div>
+        <div class="slidecontainer">
+            <input type="range" min="10" max="500" value="100" class="slider-color" id="myRange">
+        </div>
+        <p id="wynik"></p>
+        <button id="btn1" onclick="symulacja()">Rozpocznij symulację</button><br><br><br>
+        <div id="ramka">
+            <span>Liczba orłów: </span><span id="liczorly"></span><br>
+            <span>Liczba reszek: </span><span id="liczreszki"></span><br>
+            <span>Najdłuższa seria - orły: </span><span id="seriaorly"></span><br>
+            <span>Najdłuższa seria - reszki: </span><span id="seriareszki"></span>
+        </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
